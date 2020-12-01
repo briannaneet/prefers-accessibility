@@ -70,4 +70,10 @@ html {
  * =============
  */
 
+ @media (prefers-reduced-motion) {
+   .gear {
+     animation: none;
+   }
+ }
+
 /* stylelint-enable */
