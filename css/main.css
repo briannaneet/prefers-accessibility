@@ -70,10 +70,21 @@ html {
  * =============
  */
 
- @media (prefers-reduced-motion) {
-   .gear {
-     animation: none;
-   }
- }
+@media (prefers-reduced-motion) {
+
+  .gear {
+    animation: none;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .banner {
+    background-color: #9c9c9c;
+    color: #e8e8e8;
+  }
+
+}
 
 /* stylelint-enable */
